@@ -1,0 +1,18 @@
+h1,h2,h3 {
+    color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    
+}
+p1,p2,p3 {
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+}
+a {
+    color: coral;
+}
+button {
+    color: brown;
+    background-color: darkcyan;
+}
