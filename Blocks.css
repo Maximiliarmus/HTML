@@ -1,18 +1,23 @@
-.cards__container-item{
-    width: 263px;
-    height: 393px;
+/* Стили для красного круга */
+.circle{
+    width: 100px;
+    height: 100px;
     background: red;
+    /* border: 5px dotted;
+    border-color: blue; */
+    border-radius: 50%;
 }
-.cards__container-item{
-    width: 263px;
-    height: 393px;
-    background: red;
+/* Стили для черного круга */
+/* .egor1{
+    width: 150px;
+    height: 150px;
+    background: black;
+    border: 5px dotted;
+    border-color: blue;
+    border-radius: 50%;
+} */
+/* Стили для желтого круга */
+.yellow{
+    background-color: yellow;
 }
-.cards__container-item{
-    width: 263px;
-    height: 393px;
-    background: red;
-}
-.cards__container-item_blue{
-    background: blue;
-}
+
