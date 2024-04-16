@@ -1,20 +1,107 @@
-/* Сброс стилей */
+/* Импортируем шрифт */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Для всех: Сброс стилей */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Для всех: добавление шрифта */
+  font-family: "Montserrat", sans-serif;
+}
 
-  body{
-    
-  }
-  .wrapper{
-    width: 100vw;
-    height: 2000px;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+/* Для класса header: */
+.header {
+  /* из блочного элемента делаем управлеямый */
+  display: flex;
+  /* выравниваем по горизонтали: */
+  justify-content: space-between;
+  /* выравниваем по вертикали: */
+  align-items: center;
+  /* устанавливаем значение границ */
+  padding: 50px;
+  /* устанавливаем тень */
+  -webkit-box-shadow: 5px 0px 53px 24px rgba(84, 11, 48, 1);
+  -moz-box-shadow: 5px 0px 53px 24px rgba(84, 11, 48, 1);
+  box-shadow: 5px 0px 53px 24px rgba(84, 11, 48, 1);
+}
 
-  }
-  
-  
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Ширина и длина картинки логотипа */
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Для списка меню навигации: */
+.nav ul {
+  /* Убираем точки списка */
+  list-style: none;
+  /* из блочного элемента делаем управляемый */
+  display: flex;
+  /* выравниваем по горизонтали */
+  justify-content: space-between;
+
+}
+
+/* Для слов списка меню навигации */
+.nav ul li {
+  /* Делаем отступ между словами */
+  margin-right: 10px;
+}
+
+/* Для ссылок в списке меню навигации */
+.nav ul li a {
+  /* Убираем подчеркивание  */
+  text-decoration: none;
+  /* цвет шрифта */
+  color: black;
+  /* размер шрифта */
+  font-size: 25px;
+  /* толщина шрифта */
+  font-weight: 400;
+}
+
+/* При наведении на слово в списке меню навигации фон будет подскашен серым: */
+.nav ul li a:hover {
+  color: gray;
+}
+
+.search input {
+  margin-right: 10px;
+  padding: 10px;
+  outline: none;
+}
+
+.search button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.search button:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+.main {
+  background-color: rgb(241, 197, 143);
+  height: 500px;
+  width: 80%;
+  margin: 50px auto;
+
+}
+
+.main_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}

@@ -6,7 +6,7 @@
     /* border: 5px dotted;
     border-color: blue; */
     border-radius: 50%;
-}
+} 
 /* Стили для курсора и изменения кругов */
 .circle:hover{
     width: 100px;
@@ -17,6 +17,7 @@
     border-radius: 50%;
     cursor: pointer;
     transform: scale(1.5);
+    
 }
 /* Стили для черного круга */
 /* .egor1{
@@ -41,18 +42,24 @@ body {
     background-color: #632d2d62;
 }
 
-#username, a, input{
+#username, input{
     text-decoration: none;
     color: black;
-    
+    display: block;  
 }
 
-/* a{
-    color: red;
+.flex{
+    display: flex;
+}
+
+
+
+a{
+    color: blue;
 }
 
 a.green{
     color: green;
-} */
+}
 
    
