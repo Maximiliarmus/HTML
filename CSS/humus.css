@@ -62,4 +62,11 @@ a.green{
     color: green;
 }
 
+header{
+    background-image: url(/IMG/Хумус.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+
+}
    
