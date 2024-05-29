@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 16px;
+    background: #fff;
+    color: #000;
+}
+
+header {
+    width: 100%;
+    background: #F8F8F8;
+    -webkit-box-shadow: 9px 9px 14px 15px rgba(38, 7, 38, 0.57);
+    -moz-box-shadow: 9px 9px 14px 15px rgba(38, 7, 38, 0.57);
+    box-shadow: 9px 9px 14px 15px rgba(38, 7, 38, 0.57);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /* padding: 20px; */
+    float: left;
+    position: fixed;
+    z-index: 999;
+}
+
+header .all-header {
+    width: 60%;
+    margin: 0 auto;
+}
+
+header .all-header .lang {
+    text-align: right;
+    width: 100%;
+}
+
+header .all-header .lang a {
+    font-size: 14px;
+    color: #c4c4c4;
+    font-weight: 800;
+}
+
+header .all-header .lang a.active,
+header .all-header .lang a:hover {
+    color: #000;
+    border-bottom: 2px solid #000;
+    margin-left: 5px;
+}
+
+header .all-header .header-main {
+    width: 100%;
+    margin-top: 20px;
+}
+
+header .all-header .header-main img {
+    height: 50px;
+    float: left;
+}
+
+#search {
+    float: left;
+    margin-left: 20px;
+    border: 0;
+    background: #ECECEC;
+    width: 360px;
+    height: 44px;
+    font-weight: 300;
+    font-size: 12px;
+    text-indent: 20px;
+    outline: none;
+    margin-top: 5px;
+}
+
+header .all-header .header-main a {
+    float: left;
+    color: #000;
+    font-weight: 800;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+header .all-header .header-main a:hover {
+    color: #ccc;
+}
+
+header .all-header .header-main .button {
+    cursor: pointer;
+    float: right;
+    margin-left: 20px;
+    width: 86px;
+    height: 40px;
+    font-weight: 800;
+    border: 2px solid #000;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+header .all-header .header-main .button.reg {
+    width: 140px;
+}
+
+header .all-header .header-main .button.reg,
+header .all-header .header-main .button.auth:hover {
+    background: #000;
+    color: #fff;
+}
+
+header .all-header .header-main .button.reg:hover {
+    background: #fff;
+    color: #000;
+}
+
+main {
+    float: left;
+    width: 100%;
+    padding-top: 100px;
+}
+
+main .section {
+    float: left;
+    width: 60%;
+    margin: 50px 20%;
+    margin-bottom: 50px;
+}
+
+main .section:not(:first-of-type){
+    margin: 10px 20%;
+    float: left;
+    width: 60%;
+}
+main .section h3 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+main .section h3 span {
+    height: 2px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 7px;
+    margin-bottom: 7px;
+    width: 30px;
+    background: #000;
+}
+
+main .section .img-block {
+    width: 25%;
+    margin: 20px 0;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+main .section .img-block img{width: 100%;}
+
+main .section .img-block:not(:last-of-type){
+    margin-right: 12.5%;
+}
+main .section .img-block h4{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+main .section .img-block p{
+    font-size: 14px;
+    font-weight: 300;
+}
+main .section .img-block .button-play{
+    background-color: #000;
+    color: yellow;
+    padding: 25px;
+    position: absolute;
+    right: -30px;
+    bottom: 80px;
+    display: none;
+}
+main .section .img-block:hover .button-play{
+    display: block;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    float: left;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
